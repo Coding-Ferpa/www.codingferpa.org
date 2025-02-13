@@ -2,21 +2,21 @@
     "talks": [
         {
             "id": 1,
-            "title": "Analise de dados com CSGO: Modelos Probabilísticos e Desenvolvimento Mobile com ClojureScript",
-            "speaker": "Felipe Gomes",
-            "description": "Um projeto universitário sobre um modelo probabilistico que prediz resultados em partidas de counter strike, com uma breve introdução a aplicações mobile com cljs, REST APIs, probabilidade e estatística"
+            "title": "Interfaces, Expressões Lambdas e o poder da Programação Funcional em Java",
+            "speaker": "Gustavo Bizo",
+            "description": "Interfaces e expressões lambda tornam o código mais conciso e flexível, facilitando a programação funcional em Java. Nesta apresentação, vamos explorar como essas técnicas podem melhorar a legibilidade e eficiência do código, para escrever código mais expressivo e moderno."
         },
         {
             "id": 2,
-            "title": "Java e IA, LangChain4j",
-            "speaker": "Fernando Ollé",
+            "title": "Poder dos Micro-Frontends: Uma abordagem moderna para a Arquitetura Frontend",
+            "speaker": "Junior",
             "description": "Java é uma das melhores escolhas para integrações com IA no backend"
         },
         {
             "id": 3,
-            "title": "Desafios de Como Ser um Bom Desenvolvedor na Geracao de IA",
-            "speaker": "Mateus Pinheiro",
-            "description": "Em minha palestra falarei sobre os desafios que novos desenvolvedores encontram no dia a dia para se destacarem em suas carreiras. E como este caminho tem dificultado (ou ajudado) os desenvolvedores à atingirem seus objetivos profissionais."
+            "title": "Mapeando grafos com Clojure e Pathom",
+            "speaker": "Guto Lanjoni",
+            "description": "Trabalhar com interfaces complexas de dados e como podemos modelá-las é um desafio, por isso, nessa apresentação vamos explorar como utilizar Clojure e Pathom, uma biblioteca que atua como interface de resolução de dados em Clojure que permite mapear relações entre diferentes fontes de dados e simplificar consultas em domínios cada vez mais complexos, abordando conceitos fundamentais de grafos."
         }
     ]
 }
