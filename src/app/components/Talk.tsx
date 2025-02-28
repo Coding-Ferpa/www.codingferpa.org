@@ -8,15 +8,21 @@ type Talk = {
   description: string;
 };
 
+type Date = {
+  id: number;
+  date: string;
+};
+
 export default function Talk() {
   const talk_1 = data.talks.find((talk: Talk) => talk.id === 1);
   const talk_2 = data.talks.find((talk: Talk) => talk.id === 2);
   const talk_3 = data.talks.find((talk: Talk) => talk.id === 3);
+  const talk_date = data.date.find((date: Date) => date.id === 1);
 
   return (
     <section id="talk" className="bg-black text-white py-8">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold">Palestras do dia 11/10</h1>
+        <h1 className="text-3xl font-bold">Palestras do dia {talk_date.date}</h1>
       </div>
       <div className=" mx-auto px-4">
         <div className="flex flex-wrap justify-center gap-4">

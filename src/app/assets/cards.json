@@ -1,22 +1,28 @@
 {
-    "talks": [
-        {
-            "id": 1,
-            "title": "Coding Ferpa, o prefácio",
-            "speaker": "Gustavo Bizo",
-            "description": "Gênesis da comunidade tech no interior de São Paulo"
-        },
-        {
-            "id": 2,
-            "title": "ClojureScript e por quais motivos usar no front-end? (e por que tantos parênteses)",
-            "speaker": "Guto Lanjoni",
-            "description": "Criar interfaces web cada vez mais reativas tem sido uma aventura inusitada para diversos desenvolvedores, mas, já pensou neste mesmo processo utilizando linguagens de programação funcional? Ainda melhor: com um dialeto de LISP? Nesta apresentação você conhecerá ClojureScript e como desenvolver sua primeira interface reativa com Helix, que integra tudo de melhor que temos do React de maneira mágica!"
-        },
-        {
-            "id": 3,
-            "title": "Navegando na Complexidade: Como Gerenciar o Conhecimento em Ambientes de Desenvolvimento",
-            "speaker": "Josué Teodoro Moreira",
-            "description": "O gerenciamento do conhecimento em ambientes de desenvolvimento complexos será o foco da discussão. Serão abordadas estratégias práticas para identificar, compartilhar e aplicar conhecimento técnico de forma eficaz. Os desafios desse processo também serão explorados, com o objetivo de oferecer insights que ajudem equipes a se tornarem mais colaborativas e eficientes, resultando em melhorias significativas na qualidade dos resultados."
-        }
-    ]
+  "date": [
+    {
+      "id": 1,
+      "date": "07/03"
+    }
+  ],
+  "talks": [
+    {
+      "id": 1,
+      "title": "Turbine sua produtividade com linha de comando.",
+      "speaker": "Vitor Fábio ",
+      "description": "Uma talk para incentivar o uso de terminal no dia-dia, mostrando os pontos positivos e dando um pequeno caminho a se seguir com Linux."
+    },
+    {
+      "id": 2,
+      "title": "Layouts com JetPack Compose p/ Android e KMM",
+      "speaker": "Eduardo Viana Pessoa",
+      "description": "Oi pessoal! Gostaria de falar sobre o JetPack Compose, como isso revolucionou o desenvolvimento nativo Android, e como é fácil e simples de criar layouts para Android nativo e também Kotlin Multiplataforma."
+    },
+    {
+      "id": 3,
+      "title": "Navegando na Complexidade: Como Gerenciar o Conhecimento em Ambientes de Desenvolvimento",
+      "speaker": "Do Zero ao Chip",
+      "description": "Nesta talk, abordo um pouco sobre o desenvolvimento de semicondutores e soluções embarcadas de hardware, como criar seu próprio chip, trabalhar em low level e desenvolver sua carreira em uma das áreas mais ocultas da computação, mas que, no entanto, é uma das que mais movimenta o mercado (vide as ações da Nvidia e de outras empresas de design de chips)"
+    }
+  ]
 }
