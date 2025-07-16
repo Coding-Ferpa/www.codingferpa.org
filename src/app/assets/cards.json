@@ -2,15 +2,15 @@
     "talks": [
         {
             "id": 1,
-            "title": "Interfaces, Expressões Lambdas e o poder da Programação Funcional em Java",
-            "speaker": "Gustavo Bizo",
-            "description": "Interfaces e expressões lambda tornam o código mais conciso e flexível, facilitando a programação funcional em Java. Nesta apresentação, vamos explorar como essas técnicas podem melhorar a legibilidade e eficiência do código, para escrever código mais expressivo e moderno."
+            "title": "Observabilidade com OpenTelemetry",
+            "speaker": "Thiago Gonzaga",
+            "description": "Se você já se perguntou “por que minha aplicação está lenta?” ou “onde está o erro que está quebrando tudo?”, esta palestra é para você. Vamos mostrar como implementar observabilidade de forma simples e prática, usando ferramentas gratuitas que as grandes empresas usam."
         },
         {
             "id": 2,
-            "title": "Poder dos Micro-Frontends: Uma abordagem moderna para a Arquitetura Frontend",
-            "speaker": "Junior",
-            "description": "Java é uma das melhores escolhas para integrações com IA no backend"
+            "title": "O programador pragmático",
+            "speaker": "Josué Teodoro Moreira",
+            "description": "A programação exige um conhecimento amplo e, às vezes, parece que você precisa dominar tudo de uma vez. Mas, ser um programador pragmático é justamente o contrário: é saber escolher suas batalhas, focar no que resolve o problema de verdade, comunicar bem, evitar complexidade desnecessária e seguir em frente. Não é sobre perfeição, é sobre clareza, utilidade e manter o código vivo e compreensível amanhã."
         },
         {
             "id": 3,

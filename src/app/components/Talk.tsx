@@ -34,13 +34,7 @@ export default function Talk() {
               desc={talk_2.description}
             />
           )}
-          {talk_3 && (
-            <Card
-              title={talk_3.title}
-              speaker={talk_3.speaker}
-              desc={talk_3.description}
-            />
-          )}
+          
         </div>
       </div>
     </section>
