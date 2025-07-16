@@ -16,7 +16,7 @@ export default function Talk() {
   return (
     <section id="talk" className="bg-black text-white py-8">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold">Palestras do dia 14/02</h1>
+        <h1 className="text-3xl font-bold">Palestras do dia 17/07</h1>
       </div>
       <div className=" mx-auto px-4">
         <div className="flex flex-wrap justify-center gap-4">
