@@ -26,14 +26,14 @@ export default function Events() {
             apaixonados por tecnologia.
           </p>
           <p className="text-lg text-white mb-4">
-            Os encontros acontecem no auditório da{" "}
+            Os encontros acontecem no {" "}
             <a
-              href="https://maps.app.goo.gl/2Evi2eEPt1t386kWA"
+              href="https://www.google.com/maps/dir//Av.+dos+Arnaldos,+2316+-+Jardim+Res.+Por+do+Sol,+Fernand%C3%B3polis+-+SP,+15600-348/@-20.2902767,-50.3821587,11.82z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9497f767ebeef459:0x2b5a901e9aa0d1fe!2m2!1d-50.2571331!2d-20.291178?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="text-main-50 underline"
             >
-              FEF
+              Dog King
             </a>
             . Fique ligado nos nossos eventos mensais e venha construir o futuro
             com a gente!
