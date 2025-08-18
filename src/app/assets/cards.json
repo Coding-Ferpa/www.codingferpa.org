@@ -2,21 +2,15 @@
     "talks": [
         {
             "id": 1,
-            "title": "Observabilidade com OpenTelemetry",
-            "speaker": "Thiago Gonzaga",
-            "description": "Se você já se perguntou “por que minha aplicação está lenta?” ou “onde está o erro que está quebrando tudo?”, esta palestra é para você. Vamos mostrar como implementar observabilidade de forma simples e prática, usando ferramentas gratuitas que as grandes empresas usam."
+            "title": "Ecossistema Elixir",
+            "speaker": "Ravi Vendramini",
+            "description": "Abstrações de concorrência em Elixir, GenServers e concorrência baseada em processo."
         },
         {
             "id": 2,
-            "title": "O programador pragmático",
+            "title": "Criando e mantendo sistemas de risco e alta disponibildade",
             "speaker": "Josué Teodoro Moreira",
-            "description": "A programação exige um conhecimento amplo e, às vezes, parece que você precisa dominar tudo de uma vez. Mas, ser um programador pragmático é justamente o contrário: é saber escolher suas batalhas, focar no que resolve o problema de verdade, comunicar bem, evitar complexidade desnecessária e seguir em frente. Não é sobre perfeição, é sobre clareza, utilidade e manter o código vivo e compreensível amanhã."
-        },
-        {
-            "id": 3,
-            "title": "Mapeando grafos com Clojure e Pathom",
-            "speaker": "Guto Lanjoni",
-            "description": "Trabalhar com interfaces complexas de dados e como podemos modelá-las é um desafio, por isso, nessa apresentação vamos explorar como utilizar Clojure e Pathom, uma biblioteca que atua como interface de resolução de dados em Clojure que permite mapear relações entre diferentes fontes de dados e simplificar consultas em domínios cada vez mais complexos, abordando conceitos fundamentais de grafos."
-        }
+            "description": "Iremos aprender tecnicas de como manter um sistema que deve estar disponivel a todo momento, de pé, tais como mapeamento de pontos de falha, observabilidade, padrões de falha e retry, e mais."
+        }  
     ]
 }
