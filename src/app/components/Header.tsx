@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   const handleClick = () => {
-    window.open("https://chat.whatsapp.com/KgO1mbD0JFWJk6OWjlNQd2", "_blank");
+    window.open("https://chat.whatsapp.com/GOYXiNWDK5rICpJD0hs2QL", "_blank");
   };
 
 
