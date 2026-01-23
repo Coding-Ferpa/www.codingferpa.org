@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-12 text-gray-800">
-      <h1 className="text-4xl font-bold mb-8 text-gray-900">
+    <main className="max-w-4xl mx-auto px-6 py-12 text-white">
+      <h1 className="text-4xl font-bold mb-8 text-white">
         Código de Conduta da Comunidade Coding Ferpa
       </h1>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">1. Nossa Missão e Valores</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-white">1. Nossa Missão e Valores</h2>
         <p className="mb-4 leading-relaxed">
           Nossa missão é criar um ambiente onde profissionais e estudantes da região de Fernandópolis possam se conectar com a tecnologia de maneira inovadora. Valorizamos o poder das comunidades e acreditamos que, juntos, podemos ir mais longe.
         </p>
@@ -21,7 +21,7 @@ export default function Home() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">2. Nosso Compromisso</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-white">2. Nosso Compromisso</h2>
         <p className="mb-4 leading-relaxed">
           No interesse de fomentar uma comunidade aberta e acolhedora, nós, como membros, contribuidores e líderes, nos comprometemos a fazer da participação na nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, deficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, condição socioeconômica, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
         </p>
@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">3. Nossos Padrões</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-white">3. Nossos Padrões</h2>
         
         <p className="mb-2 font-medium">Exemplos de comportamentos que contribuem para criar um ambiente positivo:</p>
         <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">4. Nossas Responsabilidades</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-white">4. Nossas Responsabilidades</h2>
         <p className="mb-4 leading-relaxed">
           Os líderes da comunidade são responsáveis por esclarecer e fazer cumprir nossos padrões de comportamento aceitável e tomarão medidas corretivas apropriadas e justas em resposta a qualquer comportamento que considerem inadequado, ameaçador, ofensivo ou prejudicial.
         </p>
@@ -60,7 +60,7 @@ export default function Home() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">5. Escopo</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-white">5. Escopo</h2>
         <p className="mb-4 leading-relaxed">
           Este Código de Conduta se aplica a todos os espaços da comunidade, tanto online quanto offline. Isso inclui, mas não se limita a:
         </p>
@@ -72,14 +72,14 @@ export default function Home() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">6. Aplicação e Denúncias</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-white">6. Aplicação e Denúncias</h2>
         <p className="mb-4 leading-relaxed">
           Casos de comportamento abusivo, assediador ou inaceitável devem ser reportados aos líderes da comunidade responsáveis pela aplicação.
         </p>
         <ul className="list-disc pl-6 mb-4 space-y-2">
           <li>
             <strong>Como denunciar:</strong> Entre em contato diretamente com a organização (pessoalmente durante os eventos) ou envie um e-mail para{' '}
-            <a href="mailto:codingferpa@gmail.com" className="text-blue-600 hover:underline">
+            <a href="mailto:codingferpa@gmail.com" className="text-blue-300 hover:underline">
               codingferpa@gmail.com
             </a>.
           </li>
@@ -90,11 +90,11 @@ export default function Home() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">7. Consequências de Comportamento Inaceitável</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-white">7. Consequências de Comportamento Inaceitável</h2>
         <p className="mb-4">Seguiremos as diretrizes de impacto da comunidade para determinar as consequências:</p>
         
         <div className="space-y-6">
-          <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+          <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
             <h3 className="font-bold text-lg mb-2">1. Banimento Temporário</h3>
             <ul className="space-y-1 text-sm">
               <li><span className="font-semibold">Impacto:</span> Uma violação séria dos padrões da comunidade, incluindo comportamento inadequado sustentado.</li>
@@ -102,7 +102,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+          <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
             <h3 className="font-bold text-lg mb-2">2. Banimento Permanente</h3>
             <ul className="space-y-1 text-sm">
               <li><span className="font-semibold">Impacto:</span> Demonstrar um padrão de violação, assédio a um indivíduo, agressão ou menosprezo a grupos de indivíduos.</li>
@@ -112,11 +112,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="pt-8 border-t border-gray-200 text-sm text-gray-500">
-        <h2 className="text-xl font-semibold mb-2 text-gray-700">8. Atribuição</h2>
+      <section className="pt-8 border-t border-gray-700 text-sm text-gray-400">
+        <h2 className="text-xl font-semibold mb-2 text-gray-300">8. Atribuição</h2>
         <p>
           Este Código de Conduta é adaptado do{' '}
-          <a href="https://www.contributor-covenant.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+          <a href="https://www.contributor-covenant.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
             Contributor Covenant
           </a>
           , versão 2.1.
