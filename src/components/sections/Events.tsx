@@ -3,7 +3,7 @@ import { faMapLocationDot, faCalendarDays } from "@fortawesome/free-solid-svg-ic
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import ScrollReveal from "@/components/ui/ScrollReveal";
-import { MAPS_URL, WHATSAPP_URL, VENUE } from "@/lib/constants";
+import { MAPS_URL, VENUE } from "@/lib/constants";
 
 export default function Events() {
   return (
