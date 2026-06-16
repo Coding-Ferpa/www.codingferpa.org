@@ -1,16 +1,4 @@
 {
-    "talks": [
-        {
-            "id": 1,
-            "title": "Ecossistema Elixir",
-            "speaker": "Ravi Vendramini",
-            "description": "Abstrações de concorrência em Elixir, GenServers e concorrência baseada em processo."
-        },
-        {
-            "id": 2,
-            "title": "Criando e mantendo sistemas de risco e alta disponibildade",
-            "speaker": "Josué Teodoro Moreira",
-            "description": "Iremos aprender tecnicas de como manter um sistema que deve estar disponivel a todo momento, de pé, tais como mapeamento de pontos de falha, observabilidade, padrões de falha e retry, e mais."
-        }  
-    ]
+  "title": "",
+  "talks": []
 }
