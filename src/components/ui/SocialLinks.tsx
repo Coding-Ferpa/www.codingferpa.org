@@ -9,7 +9,7 @@ import { SOCIAL_LINKS } from "@/lib/constants";
 const ICON_MAP = {
   Instagram: faInstagram,
   Discord: faDiscord,
-  Github: faGithub,
+  GitHub: faGithub,
 } as const;
 
 interface SocialLinksProps {
