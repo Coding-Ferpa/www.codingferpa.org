@@ -3,6 +3,7 @@ import { Poppins, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import favicon from "./assets/icon.png";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -43,7 +44,8 @@ export const metadata: Metadata = {
     images: ["/assets/logo.png"],
   },
   icons: {
-    icon: [{ url: "/assets/icon.png", sizes: "16x16", type: "image/png" }],
+    icon: favicon.src,
+    apple: favicon.src,
   },
 };
 

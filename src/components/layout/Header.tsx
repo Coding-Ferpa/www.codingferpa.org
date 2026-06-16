@@ -28,14 +28,19 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-base ${
-        scrolled
-          ? "bg-bg-primary/80 backdrop-blur-md border-b border-border shadow-sm"
-          : "bg-transparent"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 isolate"
       style={{ height: "var(--header-height)" }}
     >
-      <div className="max-w-container mx-auto px-6 lg:px-10 h-full flex items-center justify-between">
+      <div
+        className={`absolute inset-0 transition-all duration-base pointer-events-none ${
+          scrolled
+            ? "bg-bg-primary/80 backdrop-blur-md border-b border-border shadow-sm"
+            : "bg-transparent"
+        }`}
+        aria-hidden
+      />
+
+      <div className="relative z-10 max-w-container mx-auto px-6 lg:px-10 h-full flex items-center justify-between">
         <Link
           href="/"
           className="flex items-center gap-3 shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-md"
@@ -46,7 +51,7 @@ export default function Header() {
             alt="Logo Coding Ferpa"
             width={40}
             height={40}
-            className="h-10 w-auto"
+            className="relative z-10 h-10 w-auto"
             priority
           />
           
@@ -99,7 +104,7 @@ export default function Header() {
 
       {menuOpen && (
         <nav
-          className="md:hidden absolute top-full left-0 right-0 bg-bg-primary/95 backdrop-blur-md border-b border-border px-4 py-4 flex flex-col gap-1"
+          className="md:hidden absolute top-full left-0 right-0 z-10 bg-bg-primary/95 backdrop-blur-md border-b border-border px-4 py-4 flex flex-col gap-1"
           aria-label="Navegação mobile"
         >
           {NAV_LINKS.map((link) =>

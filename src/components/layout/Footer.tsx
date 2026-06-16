@@ -1,22 +1,26 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import SocialLinks from "@/components/ui/SocialLinks";
 import { NAV_LINKS } from "@/lib/constants";
+import iconSub from "@/app/assets/iconsub.png";
 
 export default function Footer() {
   return (
     <footer className="bg-bg-elevated border-t border-border mt-6">
       <div className="max-w-container mx-auto px-6 lg:px-10 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          <div>
-            <p className="font-bold text-text-primary text-body mb-1">Coding Ferpa</p>
-            <p className="text-text-secondary text-caption whitespace-nowrap">
-              Comunidade de tecnologia em Fernandópolis — SP
-            </p>
-            <p className="gradient-text font-semibold text-caption mt-2">
-              Além do código
-            </p>
+          <div className="flex justify-center items-center pt-4 md:pt-0 md:justify-start">
+            <Link href="/" aria-label="Coding Ferpa — página inicial">
+              <Image
+                src={iconSub}
+                alt="Coding Ferpa — Além do código"
+                width={800}
+                height={800}
+                className="w-32 h-auto"
+              />
+            </Link>
           </div>
 
           <div>
@@ -59,6 +63,14 @@ export default function Footer() {
                   Código de conduta
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="https://docs.codingferpa.org/"
+                  className="text-text-secondary text-caption hover:text-accent transition-colors duration-fast"
+                >
+                  Codingpédia
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -72,7 +84,7 @@ export default function Footer() {
 
         <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <p className="text-text-muted text-caption">
-            &copy; 2026 Coding Ferpa. Todos os direitos reservados.
+            copyleft {new Date().getFullYear()} Coding Ferpa. Nenhum direito reservado.
           </p>
           <p className="text-text-secondary text-caption">
             Desenvolvido com{" "}
