@@ -18,7 +18,7 @@ export const SOCIAL_LINKS = [
     label: "Discord da Coding Ferpa",
   },
   {
-    name: "Github",
+    name: "GitHub",
     url: "https://github.com/Coding-Ferpa",
     label: "GitHub da Coding Ferpa",
   },
