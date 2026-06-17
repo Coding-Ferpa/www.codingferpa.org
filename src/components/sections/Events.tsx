@@ -8,7 +8,7 @@ import { MAPS_URL, VENUE } from "@/lib/constants";
 export default function Events() {
   return (
     <section id="events" className="py-16 md:py-24 bg-bg-elevated/50">
-      <div className="max-w-container mx-auto px-6 lg:px-10">
+      <div className="page-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center">
           <ScrollReveal>
             <div>

@@ -13,7 +13,7 @@ export default function Talks() {
 
   return (
     <section id="talk" className="py-16 md:py-24">
-      <div className="max-w-container mx-auto px-6 lg:px-10">
+      <div className="page-container">
         {title && (
           <ScrollReveal>
             <SectionHeading

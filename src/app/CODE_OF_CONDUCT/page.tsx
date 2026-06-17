@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div className="max-w-container mx-auto px-6 lg:px-10 py-12 text-text-primary">
+    <div className="page-container py-12 text-text-primary">
       <h1 className="text-heading-2 font-bold mb-8 text-text-primary">
         Código de Conduta da Comunidade Coding Ferpa
       </h1>

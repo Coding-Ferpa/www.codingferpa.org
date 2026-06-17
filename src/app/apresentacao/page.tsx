@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ApresentacaoPage() {
   return (
-    <div className="max-w-container mx-auto px-6 lg:px-10 py-8 flex flex-col gap-6 min-h-[calc(100vh-var(--header-height))]">
+    <div className="page-container py-8 flex flex-col gap-6 min-h-[calc(100vh-var(--header-height))]">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
           <h1 className="text-heading-2 font-bold text-text-primary">

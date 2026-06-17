@@ -21,9 +21,9 @@ export default function Hero() {
         }}
       />
 
-      <div className="max-w-container mx-auto px-6 lg:px-10 py-12 w-full">
+      <div className="page-container py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-          <ScrollReveal>
+          <ScrollReveal className="min-w-0">
             <div className="flex flex-col gap-6">
               <h1 className="sr-only">Coding Ferpa — Além do código</h1>
               <Image
@@ -35,7 +35,7 @@ export default function Hero() {
                 priority
               />
 
-              <p className="text-text-secondary text-body whitespace-nowrap">
+              <p className="text-text-secondary text-body">
                 Comunidade para profissionais, estudantes e entusiastas de tecnologia em Fernandópolis
               </p>
 

@@ -9,7 +9,7 @@ import iconSub from "@/app/assets/iconsub.png";
 export default function Footer() {
   return (
     <footer className="bg-bg-elevated border-t border-border mt-6">
-      <div className="max-w-container mx-auto px-6 lg:px-10 py-8">
+      <div className="page-container py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="flex justify-center items-center pt-4 md:pt-0 md:justify-start">
             <Link href="/" aria-label="Coding Ferpa — página inicial">

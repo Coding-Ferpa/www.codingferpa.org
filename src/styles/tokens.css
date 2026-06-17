@@ -54,8 +54,14 @@
 
   /* Layout */
   --header-height: 4.5rem;
-  --container-padding: 1.5rem;
+  --container-padding: 1rem;
   --container-max: 96rem;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --container-padding: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
