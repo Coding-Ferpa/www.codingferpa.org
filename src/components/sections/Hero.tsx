@@ -39,7 +39,7 @@ export default function Hero() {
                 Comunidade para profissionais, estudantes e entusiastas de tecnologia em Fernandópolis
               </p>
 
-              <div className="flex flex-wrap items-center gap-4">
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
                 <Button
                   href={WHATSAPP_URL}
                   external
